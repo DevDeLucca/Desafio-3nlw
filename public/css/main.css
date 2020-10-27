@@ -1,0 +1,27 @@
+/*comentarios em css*/
+/*regra css, composta por seletor, declaração, propriedade e valor*/
+/*Seletor universal*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  color: white;
+}
+
+:root {
+  /*Estou defininfo no Browser o tamanho padrão para flexibilidade*/
+  font-size: 62.5%;
+}
+body,
+input,
+button,
+textarea {
+  /*A propriedade abaixo tem como valor sobre por o agrupamento*/
+  /*font-weight/ font-size/ line-height/ font-family*/
+
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+}

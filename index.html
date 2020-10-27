@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<!--Comentario padrão em html, estrutura basica do html-->
+<html lang="pt-br">
+<head>
+    <!--Header responsavel pelas configurações do documento-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adapitação aparelhos de menor tela/ Mobile, responsivo.-->
+    <title>Happy</title>
+    <!--tag que tem fechamento nela mesmo, tem a teg de link, rel que e o relacionamento-->
+    <link rel="icon" href="./public/images/logo-icon.png">
+    <link rel="stylesheet" href="./public/css/main.css"> 
+    <link rel="stylesheet" href="./public/css/animations.css"> 
+    <link rel="stylesheet" href="./public/css/page-landing.css"> 
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--E tudo que e visivel ao cliente-->
+    <div id="page-landing">
+        <div id="container">
+            <header>
+                <!--src= caminho da imagem, caminhos relativos-->
+                <!--Svg e um caminho ajustavel a tamanhos diferentes de tela - alt e um caminho semantico, que tenha sentido para o Rob Google-->
+                <img class="animate-up" id="logo" src="./public/images/logo.svg" alt="Logomarca de Happy">
+        
+                <div class="location animate-up">
+                <!-- reprensenta uma caixa-->
+                <strong> Belo Horizonte</strong>
+                <p>Minhas Gerais</p>
+                <!--Tag p e um paragrafo-->
+                <!--Strong Deixar a fonte com negrito-->
+                <div>
+            </header>
+            <main>
+            <!--Colocar o conteudo principal da pagina, o que ha de principal-->
+                <h1 class="animate-up" >Leve felicidade para o mundo</h1>
+                <section class="visit ">
+                    <p class="animate-up">Visite orfanatos e mude o dia de muitas crianças</p>
+                    <a href="#" title="Visite orfanatos" class="animate-up">
+                        <img src="./public/images/arrow.svg" alt="ir para o mapa">
+                    </a>
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
